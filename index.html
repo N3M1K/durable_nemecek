@@ -96,8 +96,9 @@
         <h2 class="prices-header zilla-slab-semibold">Reviews</h2>
         <div class="review-cont">
             <div class="review-box">
+                <button onclick="gallery('-200')">&lt;</button>
                 <div class="review">
-                    <div class="customer"><img src="/assets/images/customer.jpeg" alt="Customer"></div>
+                    <div class="customer"><img src="/assets/images/customer1.jpeg" alt="Customer"></div>
                     <span>
                         Street race photographer captured the exhilarating moments of the race with great skill and precision. Their attention
                         to detail and ability to capture the essence of the event was truly impressive. I am grateful for their exceptional work
@@ -105,6 +106,39 @@
                     </span>
                     <p>- Oliver</p>
                 </div>
+                <button onclick="gallery('-100')">&gt;</button>
+            </div>
+
+            <div class="review-box">
+                <button onclick="gallery('0')">&lt;</button>
+                <div class="review">
+                    <div class="customer"><img src="/assets/images/customer2.jpeg" alt="Customer"></div>
+                    <span>
+                        Street race photographer captured the exhilarating moments of the race with great skill and precision. Their
+                        attention
+                        to detail and ability to capture the essence of the event was truly impressive. I am grateful for their
+                        exceptional work
+                        and highly recommend them to all street racing enthusiasts. Thank you, Street race photographer!
+                    </span>
+                    <p>- Jacob</p>
+                </div>
+                <button onclick="gallery('-200')">&gt;</button>
+            </div>
+
+            <div class="review-box">
+                <button onclick="gallery('-100')">&lt;</button>
+                <div class="review">
+                    <div class="customer"><img src="/assets/images/customer3.jpeg" alt="Customer"></div>
+                    <span>
+                        Street race photographer captured the exhilarating moments of the race with great skill and precision. Their
+                        attention
+                        to detail and ability to capture the essence of the event was truly impressive. I am grateful for their
+                        exceptional work
+                        and highly recommend them to all street racing enthusiasts. Thank you, Street race photographer!
+                    </span>
+                    <p>- Elizabeth</p>
+                </div>
+                <button onclick="gallery('0')">&gt;</button>
             </div>
         </div>
 
@@ -189,8 +223,13 @@
             </div>
         </div>
 
-        <!-- Div pro zobrazení mapy -->
-        <div class="map"><img src="/assets/images/map.png" alt="Map"></div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/place/Prague+Castle/@50.0910983,14.3990412,17z/data=!4m6!3m5!1s0x470b951e6c24b7c3:0x2acf3c88af12259f!8m2!3d50.0910966!4d14.4016165!16zL20vMDMxbXd4"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div> //nelze kvůli nepřítomnosti SSH
 
         <div class="last-box" id="contact">
             <form class="contact-form">

@@ -100,4 +100,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
+function gallery(slide) {
+    document.querySelector(".review-cont").style.left = slide + "%";
+}

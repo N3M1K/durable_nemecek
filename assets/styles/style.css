@@ -237,13 +237,51 @@ header {
     margin: 0;
     padding-top: 5em;
     background-color: #181240;
-    width: 100vw;
+    width: fit-content;
     height: fit-content;
     display: flex;
     justify-content: center;
+    position: relative;
+    left: 0%;
+    transition-timing-function: ease-in-out;
+    transition: 250ms;
+    -webkit-transition: 250ms;
+    -moz-transition: 250ms;
+    -ms-transition: 250ms;
+    -o-transition: 250ms;
 }
 .review-box {
+    display: flex;
+    align-items: center;
     width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.review-box button {
+    cursor: pointer;
+    margin: .5em;
+    font-weight: 600;
+    background-color: transparent;
+    height: 3.5em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 4px #5280e4;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 150ms;
+    -webkit-transition: 150ms;
+    -moz-transition: 150ms;
+    -ms-transition: 150ms;
+    -o-transition: 150ms;
+}
+.review-box button:hover {
+    background-color: rgba(255, 255, 255, 0.35);
 }
 .review {
     width: 65vw;
@@ -646,6 +684,7 @@ input[type="submit"]:hover {
 }
 
 .contact-me {
+    color: black;
     font-size: 1.6em;
     border: solid 2px white;
     background-color: #5280e4;
