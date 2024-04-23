@@ -100,6 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-function gallery(slide) {
+function gallery(slide, n) {
     document.querySelector(".review-cont").style.left = slide + "%";
+    document.querySelector(".bubbles-styles").innerHTML = '#bubble' + n + ' {background-color: rgba(255, 255, 255, 0.65);}'
 }

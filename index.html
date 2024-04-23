@@ -96,7 +96,7 @@
         <h2 class="prices-header zilla-slab-semibold">Reviews</h2>
         <div class="review-cont">
             <div class="review-box">
-                <button onclick="gallery('-200')">&lt;</button>
+                <button onclick="gallery('-200', '3')">&lt;</button>
                 <div class="review">
                     <div class="customer"><img src="/assets/images/customer1.jpeg" alt="Customer"></div>
                     <span>
@@ -106,11 +106,11 @@
                     </span>
                     <p>- Oliver</p>
                 </div>
-                <button onclick="gallery('-100')">&gt;</button>
+                <button onclick="gallery('-100', '2')">&gt;</button>
             </div>
 
             <div class="review-box">
-                <button onclick="gallery('0')">&lt;</button>
+                <button onclick="gallery('0', '1')">&lt;</button>
                 <div class="review">
                     <div class="customer"><img src="/assets/images/customer2.jpeg" alt="Customer"></div>
                     <span>
@@ -122,11 +122,11 @@
                     </span>
                     <p>- Jacob</p>
                 </div>
-                <button onclick="gallery('-200')">&gt;</button>
+                <button onclick="gallery('-200', '3')">&gt;</button>
             </div>
 
             <div class="review-box">
-                <button onclick="gallery('-100')">&lt;</button>
+                <button onclick="gallery('-100', '2')">&lt;</button>
                 <div class="review">
                     <div class="customer"><img src="/assets/images/customer3.jpeg" alt="Customer"></div>
                     <span>
@@ -138,9 +138,15 @@
                     </span>
                     <p>- Elizabeth</p>
                 </div>
-                <button onclick="gallery('0')">&gt;</button>
+                <button onclick="gallery('0', '1')">&gt;</button>
             </div>
         </div>
+        <div class="bubbles"><div onclick="gallery('0', '1')" id="bubble1"></div><div onclick="gallery('-100', '2')" id="bubble2"></div><div onclick="gallery('-200', '3')" id="bubble3"></div></div>
+        <style class="bubbles-styles">
+            #bubble1 {
+                background-color: rgba(255, 255, 255, 0.65);
+            }
+        </style>
 
 
 
